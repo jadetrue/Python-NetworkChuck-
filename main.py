@@ -1,19 +1,15 @@
-print("Helllo world")
-print('I am Iron Man')
-print("I am Tony Stark")
-print("No, I am Poppy")
+#Let's start a coffee shop togeth!! We're going to build a coffee shop using some new Python programming concepts!!
 
-# multi-line string
-print("""Helllo world. 
-      I am Iron Man. 
-      I am Tony Stark.
-      No, I am Poppy""")
+#Let's build robot barista
 
-# concatanating strings
-print("I am Iron Man. " + "No, I am Iron Man." + " No, I am Poppy.")
+print("Hello, weclome to NetworkChuck coffee!!!")
 
-print("I am Iron Man.\n" + "No, I am Iron Man.\n" + "No, I am Poppy.\n")
+name = input("What is your name?\n")
 
-# We are practicing Python.....IT'S AWESOME
+print("Hello " + name + ", thank you so much for coming in today.")
 
-print("I am Poppy\n" * 100)
+menu = "Americano,\n Cappuccino,\n Latte,\n Mocha,\n Espresso\n"
+
+order = input("What would you like? Here is our menu: " + menu)
+
+print("One " + order + " coming up for you " + name)
