@@ -12,4 +12,12 @@ menu = "Americano,\n Cappuccino,\n Latte,\n Mocha,\n Espresso\n"
 
 order = input("What would you like? Here is our menu: " + menu)
 
-print("One " + order + " coming up for you " + name)
+print(order + " coming up for you " + name)
+
+price = 3
+
+number_of_coffees = input("How many coffee's would you like?\n")
+
+total = price * int(number_of_coffees)
+
+print("Thank you, " + number_of_coffees + " " + order + "'s coming up for you." + " That'll be £" + str(total))
